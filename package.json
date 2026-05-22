@@ -6,7 +6,9 @@
 		"dev": "bun --bun next dev",
 		"build": "bun --bun next build",
 		"start": "bun --bun next start",
-		"check": "bunx --bun @biomejs/biome check --write"
+		"check": "bunx --bun @biomejs/biome check --write",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit migrate"
 	},
 	"dependencies": {
 		"@base-ui/react": "^1.5.0",
@@ -35,6 +37,7 @@
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
+		"drizzle-kit": "^0.31.10",
 		"tailwindcss": "^4",
 		"typescript": "^5"
 	},

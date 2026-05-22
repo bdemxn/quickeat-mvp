@@ -1,4 +1,4 @@
-import z from "zod/v4-mini";
+import z from "zod";
 
 const envSchema = z.object({
 	DATABASE_CONNECTION_STRING: z.string(),
